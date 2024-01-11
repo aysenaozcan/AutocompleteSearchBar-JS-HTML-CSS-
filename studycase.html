@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/autocomplete.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Aysena Özcan</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo-bar">
+                <img src="assets/images/logo.jpg">
+            </div>
+            <div class="menu-bar">
+                <ul class="menu">
+                    <li class="menu-catalog"><a href>Hizmet Kataloğu</a></li>
+                    <li class="menu-dot"><a href></a></li>
+                    <li class="menu-user"><a href>GÜLŞAH ÖZAKINCI</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+<div>
+    <div class="background">
+
+        <div class="items">
+            <label class="title">Size Nasıl Yardımcı Olabiliriz?</label>
+            <div class="bar">
+                <div class="autocomplete">
+                    <input class="searchbar" type="text" id="Input" title="Search" name="myCountry"
+                        placeholder="Lütfen Anahtar Kelime Giriniz. Ör:email problemi">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="operations">
+        <div class="request"><img class="request-icon" src="icons/check.svg"><a href>İstek Bildir</a></div>
+        <div class="problem"><img class="problem-icon" src="icons/alert.svg"><a href>Sorun Bildir</a></div>
+        <div class="all-records"><img class="all-records-icon" src="icons/books.svg"><a href>Tüm Kayıtlarım</a></div>
+    </div>
+    </div>
+    <div class="announcement">
+        <label class="notices">Duyurular</label>
+        <div>
+            <h6>Buraya duyurular gelecek buraya duyurular gelecek</h6>
+            <h6>Buraya duyurular gelecek</h6>
+        </div>
+    </div>
+    <div class="office">
+        <img class="image-office" src="assets/images/office.jpg">
+    </div>
+</div>
+</body>
+<script src="assets/autocomplete.js"></script>
+<script>
+    autocomplete(document.getElementById("Input"), cities);
+</script>
+
+</html>

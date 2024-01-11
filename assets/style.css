@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    font-family: "Open Sans";
+}
+
+.navbar {
+    background-color: #0d4d95;
+    justify-content: space-between;
+    min-height: 54px;
+    width: 100%;
+}
+
+.logo-bar {
+    padding: 2px, 10px, 2px, 2px;
+    float: left;
+    height: 51px;
+}
+
+.logo-bar img {
+    height: 51px;
+}
+
+.menu-bar {
+    float: right;
+    height: 49px;
+}
+
+.menu {
+    height: 44px !important;
+}
+
+.menu li {
+    list-style-type: none;
+    float: left;
+}
+
+.menu li a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.menu-catalog {
+    margin-right: 34px;
+}
+
+.menu-dot {
+    height: 29px;
+    width: 29px;
+    background-color: #083a71;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 8px;
+    padding-top: 14px;
+    text-align: center;
+    font-weight: 600;
+    position: relative;
+
+}
+
+.menu-dot::before {
+    content: 'GÖ';
+    color: #ffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu-user {
+    margin-right: 15px;
+    margin-left: -3px;
+}
+
+.background {
+    background-image: url("images/corparate.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: grayscale(35%);
+
+}
+
+
+.items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 0px;
+}
+
+.items .title {
+    font-weight: 600;
+    color: #fff;
+    font-size: 38px;
+    font-family: "Roboto";
+    margin: 15px;
+}
+
+.operations {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 30px;
+    z-index: 2;
+}
+
+.operations div a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+   
+}
+
+.request {
+    background-color: #56d1f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 260px;
+    height: 90px;
+}
+
+.request-icon {
+    margin-right: 20px;
+    margin-bottom: 9px;
+    width: 50px;
+    height: 50px;
+}
+
+.request a {
+    margin-right: 50px;
+}
+
+.problem {
+    background-color: #90ca25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 260px;
+    height: 90px;
+}
+
+.problem-icon {
+    margin-right: 18px;
+    width: 53px;
+    height: 53px;
+}
+
+.problem a {
+    margin-right: 35px;
+}
+
+.all-records {
+    background-color: #fe6770;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 260px;
+    height: 90px;
+}
+
+.all-records a {
+    margin-right: 30px;
+}
+
+.all-records-icon {
+    margin-right: 10px;
+    margin-left: 30px;
+    width: 58px;
+    height: 58px;
+}
+
+.announcement { 
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 20%;
+}
+
+.announcement div {
+    margin-top: 12px;
+}
+
+.announcement .notices {
+    font-weight: bold;
+}
+
+.announcement div h6 {
+    font-size: 13px;
+    margin: 0;
+}
+
+.image-office {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
